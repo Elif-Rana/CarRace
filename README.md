@@ -5,9 +5,9 @@ Black players are played by the computer with randomly selected directions.
 
 ## Some rules:
 - If you hit somewhere or someone you will be push the opposite way that you crash. (This is also valid for auto players.)
-- If black cars hit somewhere or someone, there is penalty for them to wait for a while where they pushed.
+- If a black car collides somewhere or someone, there is a penalty for them to wait for a while where they are pushed.
 - However, black players still might be hard to catch. :D
-- The first one to complete a round and cross the line wins!
+- The first one to complete a lap and cross the line wins!
 
 ### Tip-off
 If you want to change the speed of black cars, you just need to update the integer parameter taken by the `game()` function in `main`.
