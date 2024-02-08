@@ -10,7 +10,7 @@ Black players are played by the computer with randomly selected directions.
 - The first one to complete a lap and cross the line wins!
 
 ### Tip-off
-If you want to change the speed of black cars, you just need to update the integer parameter taken by the `game()` function in `main`.
+If you want to change the speed of black cars, you just need to update the integer parameter taken by the `game()` function in `Main.java`.
 The speed is decided by "1000 milliseconds (1 sec) divided by that parameter". Higher number slower cars.
 ```
 new CarRace().game(100); 
